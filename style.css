@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100vw;
+}
+#home{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+span{
+    display: inline-block;
+}
+#video{
+    position: absolute;
+    width: 100vw;
+}
+#overlay{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(88, 86, 86, 0.272);
+    color: white;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    line-height: 40px;
+}
+#built{
+    top:150%;
+}
+#group{
+    top:150%;
+}
+#eye{
+    top:150%;
+}
+#value{
+    top:150%;
+}
+#white{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
